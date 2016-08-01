@@ -45,5 +45,5 @@ docs/_build
 #virtualenv
 venv
 
-#pypiconfig
-.pypirc
+#travis_pypi_setup
+travis_pypi_setup.py
