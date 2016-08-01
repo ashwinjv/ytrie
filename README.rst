@@ -8,7 +8,7 @@ ytrie
 .. image:: https://travis-ci.org/ashwinjv/ytrie.png?branch=master
     :target: https://travis-ci.org/ashwinjv/ytrie
 
-.. image:: https://pypip.in/d/ytrie/badge.png
+.. image:: https://img.shields.io/pypi/v/ytrie/badge.png
     :target: https://pypi.python.org/pypi/ytrie
 
 
@@ -19,4 +19,3 @@ Features
 --------
 
 * TODO
-
