@@ -56,10 +56,8 @@ class ytrie:
             yield item + ''.join(child)
 
     def __getitem(self, data):
-        print(data, self.__endkey)
         for k, v in data.items():
             if k == self.__endkey:
-                print('KEY!', data)
                 yield []
             else:
                 for key in self.__getitem(data[k]):
@@ -89,7 +87,7 @@ class ytrie:
                                              'objects with same end_key'
         assert self.end_value == item.end_value, 'Can only add ytrie ' + \
                                                  'objects with same end_value'
-        print(self.end_key, self.end_value, item.end_key, item.end_value)
         return_trie = ytrie()
-        return_trie.append((*self.__getitem__(''), *item['']))
+        trie_list = list(self.__getitem__('')) + list(item[''])
+        return_trie.append(trie_list)
         return return_trie
