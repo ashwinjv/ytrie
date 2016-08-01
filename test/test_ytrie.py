@@ -74,7 +74,6 @@ def test_add_two_my_tries(starting_dict):
     my_trie2_set = {'TEST', 'TENT', 'TENNIS', 'TEA', 'TRY'}
     my_trie2.append(my_trie2_set)
     my_trie = my_trie1 + my_trie2
-    print(set(my_trie['']))
     assert set(my_trie['G']) == my_trie1_set
     assert set(my_trie['T']) == my_trie2_set
 

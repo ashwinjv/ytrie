@@ -3,7 +3,7 @@ API module
 '''
 
 
-class ytrie:
+class ytrie(object):
     '''
     API to access trie data.
     '''

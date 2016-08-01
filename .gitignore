@@ -44,6 +44,8 @@ docs/_build
 
 #virtualenv
 venv
+venv2
+venv3
 
 #travis_pypi_setup
 travis_pypi_setup.py
