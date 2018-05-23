@@ -13,9 +13,3 @@ ytrie
 
 
 A pure python API for Trie data access
-
-
-Features
---------
-
-* TODO
